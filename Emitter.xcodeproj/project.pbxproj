@@ -12,16 +12,18 @@
 		881F8C3821467BA500AD8BBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881F8C3621467BA500AD8BBF /* Main.storyboard */; };
 		881F8C3A21467BAA00AD8BBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881F8C3921467BAA00AD8BBF /* Assets.xcassets */; };
 		881F8C3D21467BAA00AD8BBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881F8C3B21467BAA00AD8BBF /* LaunchScreen.storyboard */; };
+		881F8C4521467D6E00AD8BBF /* ObjectEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F8C4421467D6E00AD8BBF /* ObjectEmitter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		881F8C2F21467BA500AD8BBF /* Clouds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clouds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		881F8C2F21467BA500AD8BBF /* Emitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		881F8C3221467BA500AD8BBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		881F8C3421467BA500AD8BBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		881F8C3721467BA500AD8BBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		881F8C3921467BAA00AD8BBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		881F8C3C21467BAA00AD8BBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		881F8C3E21467BAA00AD8BBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881F8C4421467D6E00AD8BBF /* ObjectEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectEmitter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +48,7 @@
 		881F8C3021467BA500AD8BBF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				881F8C2F21467BA500AD8BBF /* Clouds.app */,
+				881F8C2F21467BA500AD8BBF /* Emitter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +58,7 @@
 			children = (
 				881F8C3221467BA500AD8BBF /* AppDelegate.swift */,
 				881F8C3421467BA500AD8BBF /* ViewController.swift */,
+				881F8C4421467D6E00AD8BBF /* ObjectEmitter.swift */,
 				881F8C3621467BA500AD8BBF /* Main.storyboard */,
 				881F8C3921467BAA00AD8BBF /* Assets.xcassets */,
 				881F8C3B21467BAA00AD8BBF /* LaunchScreen.storyboard */,
@@ -67,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		881F8C2E21467BA500AD8BBF /* Clouds */ = {
+		881F8C2E21467BA500AD8BBF /* Emitter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 881F8C4121467BAA00AD8BBF /* Build configuration list for PBXNativeTarget "Clouds" */;
+			buildConfigurationList = 881F8C4121467BAA00AD8BBF /* Build configuration list for PBXNativeTarget "Emitter" */;
 			buildPhases = (
 				881F8C2B21467BA500AD8BBF /* Sources */,
 				881F8C2C21467BA500AD8BBF /* Frameworks */,
@@ -79,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = Clouds;
+			name = Emitter;
 			productName = Clouds;
-			productReference = 881F8C2F21467BA500AD8BBF /* Clouds.app */;
+			productReference = 881F8C2F21467BA500AD8BBF /* Emitter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 881F8C2A21467BA500AD8BBF /* Build configuration list for PBXProject "Clouds" */;
+			buildConfigurationList = 881F8C2A21467BA500AD8BBF /* Build configuration list for PBXProject "Emitter" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				881F8C2E21467BA500AD8BBF /* Clouds */,
+				881F8C2E21467BA500AD8BBF /* Emitter */,
 			);
 		};
 /* End PBXProject section */
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				881F8C4521467D6E00AD8BBF /* ObjectEmitter.swift in Sources */,
 				881F8C3521467BA500AD8BBF /* ViewController.swift in Sources */,
 				881F8C3321467BA500AD8BBF /* AppDelegate.swift in Sources */,
 			);
@@ -315,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		881F8C2A21467BA500AD8BBF /* Build configuration list for PBXProject "Clouds" */ = {
+		881F8C2A21467BA500AD8BBF /* Build configuration list for PBXProject "Emitter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				881F8C3F21467BAA00AD8BBF /* Debug */,
@@ -324,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		881F8C4121467BAA00AD8BBF /* Build configuration list for PBXNativeTarget "Clouds" */ = {
+		881F8C4121467BAA00AD8BBF /* Build configuration list for PBXNativeTarget "Emitter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				881F8C4221467BAA00AD8BBF /* Debug */,

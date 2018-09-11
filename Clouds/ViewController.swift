@@ -12,12 +12,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        emitObjects()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func emitObjects() {
+        let emitter = ObjectEmitter.get(with: #imageLiteral(resourceName: "white-cloud"))
+        emitter.emitterPosition = CGPoint(x: 0, y: 100)
+        emitter.emitterSize = CGSize(width: 100, height: 100)
+        view.layer.addSublayer(emitter)
     }
 
 
